@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pill-Keeper.Presentation.WebAPI", "Pill-Keeper.Server\Pill-Keeper.Presentation.WebAPI.csproj", "{39C1A93C-6A08-4090-90B9-4FCD8C67100F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Pill-Keeper.Presentation.ReactClient", "pill-keeper.client\Pill-Keeper.Presentation.ReactClient.esproj", "{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pill-Keeper.Application", "Application\Pill-Keeper.Application.csproj", "{3C03BF24-46D5-4BF8-8792-A1852872F033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pill-Keeper.Infrastructure", "Infrastructure\Pill-Keeper.Infrastructure.csproj", "{A438E578-0354-44CE-9A31-8E45077986D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pill-Keeper.Core.Domain", "Pill-Keeper.Core.Domain\Pill-Keeper.Core.Domain.csproj", "{77EF705E-6F31-4716-9934-7BCE95E56B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C1A93C-6A08-4090-90B9-4FCD8C67100F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1A93C-6A08-4090-90B9-4FCD8C67100F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1A93C-6A08-4090-90B9-4FCD8C67100F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1A93C-6A08-4090-90B9-4FCD8C67100F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7719C7A0-91E8-4391-9EF8-CFC1D888CD01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C03BF24-46D5-4BF8-8792-A1852872F033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C03BF24-46D5-4BF8-8792-A1852872F033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C03BF24-46D5-4BF8-8792-A1852872F033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C03BF24-46D5-4BF8-8792-A1852872F033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A438E578-0354-44CE-9A31-8E45077986D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A438E578-0354-44CE-9A31-8E45077986D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A438E578-0354-44CE-9A31-8E45077986D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A438E578-0354-44CE-9A31-8E45077986D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EF705E-6F31-4716-9934-7BCE95E56B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EF705E-6F31-4716-9934-7BCE95E56B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EF705E-6F31-4716-9934-7BCE95E56B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EF705E-6F31-4716-9934-7BCE95E56B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8947635-C4B5-40A7-AE7B-FDE02F0A0135}
+	EndGlobalSection
+EndGlobal
